@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import ellipseOne from '../assets/ellipseOne.svg'
 import './Home.css'
 
 export default function Home() {
   return (
     <div className='home'>
      
-      
+      <img src = {`${ellipseOne}`} className = 'ellipse'/>
       <div>
         <div className='name-header'><div>thomas miller</div></div>
         <div className='tagline'><div>software engineer | creative thinker</div></div>

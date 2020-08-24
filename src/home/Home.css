@@ -4,20 +4,19 @@
   display: flex;
   flex-direction: column;
   background: #F55D50;
-  height: 812px;
-  
-  
+  height: 815px;
+ 
 }
 
-.pink-circle {
-
-
-
-
-background: #DF796C;
+.ellipse {
+  position: absolute;
+  left: 176px;
+  top: -57px;
+  z-index: 4;
 }
 
 .name-header{
+  position: relative;
   text-align: left;
   color: #FBFFFB;
   font-size: 75px;
@@ -26,15 +25,18 @@ background: #DF796C;
   line-height: 1;
   margin-top: 50px;
   padding-left: 10px;
+  z-index: 6;
 }
 
 .tagline{
+  position: relative;
   color: #FBFFFB;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   text-transform: lowercase;
   text-align: left;
   padding-left: 10px;
+  z-index: 6;
   
   
 }
@@ -47,6 +49,8 @@ background: #DF796C;
   color:#5AC6D6;
   font-weight: 600;
   margin-top:10px;
+  position: relative;
+  z-index: 6;
 }
 
 .portfolio-link,
@@ -66,10 +70,12 @@ margin-left: 10px;
 }
 
 .copyright{
+ 
+  background: #F55D50;
   text-transform: uppercase;
   color: #c4c4c4;
-  display: flex;
-  position: fixed;
   bottom: 0;
+  left: 0;
+  position: fixed;
   padding: 10px;
 }
