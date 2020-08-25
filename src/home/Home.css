@@ -8,10 +8,17 @@
  
 }
 
-.ellipse {
-  position: absolute;
+.ellipseOne {
+  position: absolute ;
   left: 176px;
   top: -57px;
+  z-index: 4;
+}
+
+.ellipseTwo {
+  position: absolute;
+  left: -45px;
+  top: -75px;
   z-index: 4;
 }
 
@@ -55,11 +62,25 @@
 
 
 
+.carousel-container{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  z-index: 6;
+  
+  align-items: center;
+  padding: 10px;
+  padding-bottom: 10%;
+  width: 75%;
+  
+}
+
 .carousel-title{
   color: #FCCD3C;
   font-size:20px;
+  font-weight: 600;
   text-transform: uppercase;
-  padding: 10px;
+  padding:;
   margin: 0 auto;
   position: relative;
   z-index: 6;
@@ -69,16 +90,18 @@
   position: relative;
   margin: auto;
   margin-top: 10px;
-  width: 325px;
+  width: 100%;
   z-index:6;
 }
 
+
+
 .copyright{
- 
   background: #F55D50;
   text-transform: uppercase;
   color: #c4c4c4;
   position: fixed;
   bottom: 0;
   padding: 25px;
+  z-index: 4;
 }

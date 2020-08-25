@@ -1,16 +1,21 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import ellipseOne from '../assets/ellipseOne.svg'
+import ellipseTwo from '../assets/ellipseTwo.svg'
+
 import Nav from '../nav/Nav'
 import './Home.css'
-import {useSpring, animated} from 'react-spring'
+import {useSpring, config, animated} from 'react-spring'
 
 export default function Home() {
+  const props = useSpring({bottom: 0, from: { top: 0 }, config:{duration: 1500} })
   return (
     <div className='home'>
 
-      <img src={`${ellipseOne}`} className='ellipse' />
-      <Nav/>
+      <animated.div style={props}><img src={`${ellipseOne}`} className='ellipseOne' /></animated.div>
+      <img src={`${ellipseTwo}`} className='ellipseTwo' />
+      <Nav />
+      <div className='carousel-container'>
       <div className='carousel-title'>
         recent work
       </div>
@@ -63,6 +68,8 @@ export default function Home() {
           </a>
 
         </div>
+        </div>
+       
 
         <div className='copyright'>
           <div>copyright 2020 thomas miller</div>
