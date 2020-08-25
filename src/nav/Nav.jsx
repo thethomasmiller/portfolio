@@ -7,7 +7,7 @@ export default function nav() {
     <div>
       <div>
         <div className='name-header'><div>thomas miller</div></div>
-        <div className='tagline'><div>software engineer | creative thinker</div></div>
+        <div className='tagline'><div>software engineer | creative thinker </div></div>
       </div>
       <div className='nav-links'>
         <Link to='/' style={{ textDecoration: 'none', color: '#5AC6D6' }} className='home-link'>home</Link>
