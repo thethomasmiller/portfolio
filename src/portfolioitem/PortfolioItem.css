@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Lato:ital@1&family=Poppins:wght@300&family=Raleway&family=Roboto&display=swap');
+
+
+
+
+/* Portfolio Item */
+
+.icons-container-container{
+  display: flex;
+  align-items: left;
+}
+
+.icons-container{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.icon-card{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  
+}
+
+.icon-details{
+  padding-left: 10px;
+  align-items: center;
+  width: 100%;
+  
+}
+
+.icon-img{
+  border-radius: 10px;
+}
+
+.subbusters-tagline{
+  font-size: 12px;
+}
+
+.origio-title,.danceparty-title,.flora-title,.subbusters-title {
+  font-size: 25px;
+}
+
+.origio-title{
+  font-family: 'Roboto', sans-serif;
+}
+
+.danceparty-title{
+  font-family: 'Francois One', sans-serif;
+}
+
+.flora-title{
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 5px;
+}
+
+.subbusters-title{
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+}

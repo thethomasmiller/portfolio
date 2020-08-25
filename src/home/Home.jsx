@@ -3,16 +3,13 @@ import { Link } from 'react-router-dom'
 import ellipseOne from '../assets/ellipseOne.svg'
 import Nav from '../nav/Nav'
 import './Home.css'
+import {useSpring, animated} from 'react-spring'
 
 export default function Home() {
   return (
     <div className='home'>
 
       <img src={`${ellipseOne}`} className='ellipse' />
-      <div>
-        <div className='name-header'><div>thomas miller</div></div>
-        <div className='tagline'><div>software engineer | creative thinker</div></div>
-      </div>
       <Nav/>
       <div className='carousel-title'>
         recent work

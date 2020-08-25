@@ -9,3 +9,9 @@
   position: relative;
   z-index: 6;
 }
+
+.about-link,
+.portfolio-link,
+.contact-link{
+margin-left: 10px;
+}
