@@ -1,0 +1,11 @@
+.nav-links{
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  text-transform: uppercase;
+  color:#5AC6D6;
+  font-weight: 600;
+  margin-top:10px;
+  position: relative;
+  z-index: 6;
+}

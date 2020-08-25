@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   background: #F55D50;
-  height: 815px;
+  height: 100vh;
  
 }
 
@@ -63,10 +63,17 @@ margin-left: 10px;
   font-size:20px;
   text-transform: uppercase;
   padding: 10px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 6;
 
 }
 .home-carousel{
+  position: relative;
+  margin: auto;
   margin-top: 10px;
+  width: 325px;
+  z-index:6;
 }
 
 .copyright{
@@ -74,8 +81,7 @@ margin-left: 10px;
   background: #F55D50;
   text-transform: uppercase;
   color: #c4c4c4;
-  bottom: 0;
-  left: 0;
   position: fixed;
-  padding: 10px;
+  bottom: 0;
+  padding: 25px;
 }
