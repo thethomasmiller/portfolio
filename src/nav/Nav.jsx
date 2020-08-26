@@ -5,15 +5,15 @@ import './Nav.css'
 export default function nav() {
   return (
     <div>
-      <div>
-        <div className='name-header'><div>thomas miller</div></div>
-        <div className='tagline'><div>software engineer | creative thinker </div></div>
+      <div className='name-position-container'>
+        <div className='name-header' ><div>thomas</div><div>miller</div></div>
+        <div className='tagline'><div>full stack web developer | storyteller</div></div>
       </div>
       <div className='nav-links'>
-        <Link to='/' style={{ textDecoration: 'none', color: '#5AC6D6' }} className='home-link'>home</Link>
-        <Link to='/about' style={{ textDecoration: 'none', color: '#5AC6D6' }} className='about-link'>about</Link>
-        <Link to='/portfolio' style={{ textDecoration: 'none', color: '#5AC6D6' }} className='portfolio-link'>portfolio</Link>
-        <Link to='/contact' style={{ textDecoration: 'none', color: '#5AC6D6' }} className='contact-link'>contact</Link>
+        <Link to='/' style={{ textDecoration: 'none', color: '#FBFFFB' }} className='home-link'>home</Link>
+        <Link to='/about' style={{ textDecoration: 'none', color: '#FBFFFB' }} className='about-link'>about</Link>
+        <Link to='/portfolio' style={{ textDecoration: 'none', color: '#FBFFFB' }} className='portfolio-link'>portfolio</Link>
+        <Link to='/contact' style={{ textDecoration: 'none', color: '#FBFFFB' }} className='contact-link'>contact</Link>
 
       </div>
     </div>

@@ -8,12 +8,13 @@
 .icons-container-container{
   display: flex;
   align-items: left;
+  margin-top: 30px;
+  
 }
 
 .icons-container{
   display: flex;
   flex-direction: column;
-  
 }
 
 .icon-card{

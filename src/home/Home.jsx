@@ -2,6 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import ellipseOne from '../assets/ellipseOne.svg'
 import ellipseTwo from '../assets/ellipseTwo.svg'
+import OrigioSlide from '../assets/OrigioSlide.svg'
+import DancepartySlide from '../assets/DancepartySlide.svg'
+import FloraSlide from '../assets/FloraSlide.svg'
+import SubbustersSlide from '../assets/SubbustersSlide.svg'
 
 import Nav from '../nav/Nav'
 import './Home.css'
@@ -30,28 +34,28 @@ export default function Home() {
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="https://i.imgur.com/rHFJaBR.png" class="d-block w-100" alt="..." />
+                <img src={`${OrigioSlide}`} class="d-block w-100" alt="..." />
                 <div class="carousel-caption d-none d-md-block">
                   <h5></h5>
                   <p></p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="https://i.imgur.com/8X4GS4g.png" class="d-block w-100" alt="..." />
+                <img src={`${FloraSlide}`} class="d-block w-100" alt="..." />
                 <div class="carousel-caption d-none d-md-block">
                   <h5></h5>
                   <p></p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="https://i.imgur.com/d3zp15z.png" class="d-block w-100" alt="..." />
+                <img src={`${DancepartySlide}`} class="d-block w-100" alt="..." />
                 <div class="carousel-caption d-none d-md-block">
                   <h5></h5>
                   <p></p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="https://i.imgur.com/84iPk3G.png" class="d-block w-100" alt="..." />
+                <img src={`${SubbustersSlide}`} class="d-block w-100" alt="..." />
                 <div class="carousel-caption d-none d-md-block">
                   <h5></h5>
                   <p></p>
@@ -69,18 +73,11 @@ export default function Home() {
 
           </div>
         </div>
-
-
-        <div className='copyright'>
-          <div>copyright 2020 thomas miller</div>
-        </div>
       </div>
 
-
-
-
-
-
+      <div className='copyright'>
+          <div>copyright 2020 thomas miller</div>
+        </div>
     </div>
   )
 }
