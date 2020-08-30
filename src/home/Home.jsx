@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import ellipseOne from '../assets/ellipseOne.svg'
 import ellipseTwo from '../assets/ellipseTwo.svg'
 import OrigioSlide from '../assets/OrigioSlide.svg'
@@ -9,15 +8,15 @@ import SubbustersSlide from '../assets/SubbustersSlide.svg'
 
 import Nav from '../nav/Nav'
 import './Home.css'
-import { useSpring, config, animated } from 'react-spring'
+import { useSpring, animated } from 'react-spring'
 
 export default function Home() {
   const props = useSpring({ opacity: 1, from: { opacity: 0 }, config: { duration: 2500 } })
   return (
     <div className='home'>
 
-      <animated.div style={props}><img src={`${ellipseOne}`} className='ellipseOne' /></animated.div>
-      <animated.div style={props}> <img src={`${ellipseTwo}`} className='ellipseTwo' /> </animated.div>
+      <animated.div style={props}><img alt='Ellipse' src={`${ellipseOne}`} className='ellipseOne' /></animated.div>
+      <animated.div style={props}> <img alt='Ellipse' src={`${ellipseTwo}`} className='ellipseTwo' /> </animated.div>
       <Nav />
       <div className='carousel-container'>
         <div className='carousel-title'>
@@ -36,29 +35,25 @@ export default function Home() {
               <div class="carousel-item active">
                 <img src={`${OrigioSlide}`} class="d-block w-100" alt="..." />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5></h5>
-                  <p></p>
+                  
                 </div>
               </div>
               <div class="carousel-item">
                 <img src={`${FloraSlide}`} class="d-block w-100" alt="..." />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5></h5>
-                  <p></p>
+                  
                 </div>
               </div>
               <div class="carousel-item">
                 <img src={`${DancepartySlide}`} class="d-block w-100" alt="..." />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5></h5>
-                  <p></p>
+                  
                 </div>
               </div>
               <div class="carousel-item">
                 <img src={`${SubbustersSlide}`} class="d-block w-100" alt="..." />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5></h5>
-                  <p></p>
+                
                 </div>
               </div>
             </div>

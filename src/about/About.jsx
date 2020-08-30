@@ -14,7 +14,7 @@ export default function About() {
         A software engineer with a passion for human connection, I infuse my work with empathy and a focus on empowering and accessible technology that can benefit all people. I am seeking a software engineering position where creativity and growth are valued.
       </div>
 
-      <a target="_blank" className ='resume-link' href="https://docdro.id/I8Qrl8F">RESUME</a>
+      <a rel="noopener noreferrer" target="_blank" className ='resume-link' href="https://docdro.id/I8Qrl8F">RESUME</a>
 
 
       </div>

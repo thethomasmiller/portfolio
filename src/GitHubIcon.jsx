@@ -5,7 +5,7 @@ import './GitHubIcon.css'
 export default function GitHubIcon() {
   return (
     <div>
-       <img className='github-icon' src={`${gitHubIcon}`}/> 
+       <img alt='Github Icon' className='github-icon' src={`${gitHubIcon}`}/> 
     </div>
   )
 }
