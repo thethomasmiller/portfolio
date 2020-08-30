@@ -16,7 +16,7 @@ export default function PortfolioItem() {
           <img alt='Origio Icon' className='icon-img' src='https://i.imgur.com/vtKDO6y.png' />
           <div className='icon-details'>
             <div className='origio-title'>ORIGIO</div> 
-            <div>An intentional space for makers</div>
+            <div className='app-tagline'>A space for makers</div>
             <a href='https://github.com/thethomasmiller/ORIGIO'><GitHubIcon /></a>
           </div>
 
@@ -25,7 +25,7 @@ export default function PortfolioItem() {
           <img alt= 'Danceparty Icon' className='icon-img' src='https://i.imgur.com/MinRjbU.png' />
           <div className='icon-details'>
             <div className='danceparty-title'>DANCEPARTY</div>
-            <div>A Virtual Fun Zone</div>
+            <div className='app-tagline'>Socially-distanced fun</div>
             <a href='https://github.com/thethomasmiller/dance-party'><GitHubIcon /></a>
           </div>
 
@@ -35,7 +35,7 @@ export default function PortfolioItem() {
           <img alt= 'Flora Icon' className='icon-img' src='https://i.imgur.com/wlpzWDq.png' />
           <div className='icon-details'>
             <div className='flora-title'>FLORA</div> 
-            <div>Find new plants</div>
+            <div className='app-tagline'>Find new plants</div>
             <a href='https://github.com/thethomasmiller/flora'><GitHubIcon /></a>
           </div>
 
@@ -46,7 +46,7 @@ export default function PortfolioItem() {
           <div className='icon-details'>
             <div className='subbusters-title'>SubBusters</div>
             <div className='subbusters-tagline'>A UX/DI x SEI Collaboration</div>
-            <div>Manage your paid subscription services</div>
+            <div className='app-tagline'>Manage your subscriptions</div>
             <a href='https://github.com/thethomasmiller/SubBusters'><GitHubIcon /></a>
           </div>
         </div>

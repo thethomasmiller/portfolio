@@ -7,26 +7,28 @@
 
 .icons-container-container{
   display: flex;
-  align-items: left;
-  margin-top: 30px;
-  
+  justify-content: center;
+  margin-top: 50px;
 }
 
 .icons-container{
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  width: 800px;
+  align-items: left;
+  justify-content: center;
 }
 
 .icon-card{
   display: flex;
   align-items: center;
   margin: 10px;
+  width: 325px;
   
 }
 
 .icon-details{
   padding-left: 10px;
-  align-items: center;
   width: 100%;
   
 }
@@ -59,4 +61,8 @@
 .subbusters-title{
   font-family: 'Lato', sans-serif;
   font-weight: 600;
+}
+
+.app-tagline{
+  width: 250px;
 }
