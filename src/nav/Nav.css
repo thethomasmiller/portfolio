@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Contrail+One&family=Playfair+Display:ital@0;1&display=swap');
 
+
+/* html, body{
+  overflow: hidden;
+} */
+
 .header-block-one,
 .header-block-two,
 .header-block-three,
@@ -47,7 +52,7 @@
 .name-header{
   display: flex;
   justify-content: center;
-  width: 600px;
+  width: 100%;
   position: relative;
   color: #293C43;
   font-size: 90px;
@@ -95,5 +100,14 @@ justify-content: space-evenly;
 }
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 450px){
+
+  .tagline{
+    font-size: 15px ;
+  }
+  .nav-links{
+  
+    font-size: 15px;
+  }
+
 }
