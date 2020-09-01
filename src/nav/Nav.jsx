@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import './Nav.css'
 import { useSpring, animated } from 'react-spring'
 
@@ -22,16 +23,16 @@ export default function Nav() {
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item active">
-              <a class="nav-link" style={{ color: '#293C43' }} href="/">HOME <span class="sr-only">(current)</span></a>
+              <Link to="/" class="nav-link" style={{ color: '#293C43' }}>HOME <span class="sr-only">(current)</span></Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link"  style={{ color: '#293C43' }} href="/about">ABOUT</a>
+              <Link to="/about" class="nav-link"  style={{ color: '#293C43' }}>ABOUT</Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link"  style={{ color: '#293C43' }} href="/portfolio">PORTFOLIO</a>
+              <Link to='/portfolio' class="nav-link"  style={{ color: '#293C43' }}>PORTFOLIO</Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link"  style={{ color: '#293C43' }} href="/contact">CONTACT</a>
+              <Link to='/contact' class="nav-link"  style={{ color: '#293C43' }}>CONTACT</Link>
             </li>
           </ul>
           <span class="navbar-text">
