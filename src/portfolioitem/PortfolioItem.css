@@ -9,6 +9,8 @@
   display: flex;
   justify-content: center;
   margin-top: 50px;
+  height: 500px;
+  
 }
 
 .icons-container{
@@ -17,6 +19,7 @@
   width: 800px;
   align-items: left;
   justify-content: center;
+  
 }
 
 .icon-card{

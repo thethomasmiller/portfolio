@@ -3,29 +3,38 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  height: 425px;
 }
 
 .about-container{
-  margin: 0 auto;
-  margin-top: 45px ;
-  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: auto;
+  color: #293C43;
   font-weight: 500;
   width: 325px;
   text-align: justify;
+  height: 400px;
+ 
+
+}
+
+.about-greeting{
+  font-size:25px;
 }
 
 .resume-link, 
 .resume-link:link,
 .resume-link:visited {
-  margin-top: 25px;
-  color: white;
+  color: #293C43;
   font-weight: 900;
   text-decoration: none;
+  margin-bottom: auto;
 }
 
 .resume-link:hover{
-  color: white;
+  color: #fd3617;
   transform: scale(1.5);
 
 }

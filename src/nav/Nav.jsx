@@ -1,12 +1,19 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Nav.css'
+import { useSpring, animated } from 'react-spring'
 
-export default function nav() {
+export default function Nav() {
+  const props = useSpring({ opacity: 1, from: { opacity: 0 }, config: { duration: 2500}})
   return (
     <div>
+      <animated.div style={props}> 
+        <div className='header-block-one'></div>
+        <div className='header-block-two'></div>
+        <div className='header-block-three'></div>
+      </animated.div>
       <div className='name-position-container'>
-        <div className='name-header' ><div>thomas</div><div>miller</div></div>
+        <div className='name-header' ><div className='first-name-header'>thomas</div><div >miller</div></div>
         <div className='tagline'><div>full stack web developer | storyteller</div></div>
       </div>
       <div className='nav-links'>

@@ -1,22 +1,16 @@
 import React from 'react'
-import ellipseOne from '../assets/ellipseOne.svg'
-import ellipseTwo from '../assets/ellipseTwo.svg'
 import OrigioSlide from '../assets/OrigioSlide.svg'
 import DancepartySlide from '../assets/DancepartySlide.svg'
 import FloraSlide from '../assets/FloraSlide.svg'
 import SubbustersSlide from '../assets/SubbustersSlide.svg'
-
+import Footer from '../footer/Footer'
 import Nav from '../nav/Nav'
 import './Home.css'
-import { useSpring, animated } from 'react-spring'
 
 export default function Home() {
-  const props = useSpring({ opacity: 1, from: { opacity: 0 }, config: { duration: 2500 } })
-  return (
+  
+  return (<>
     <div className='home'>
-
-      <animated.div style={props}><img alt='Ellipse' src={`${ellipseOne}`} className='ellipseOne' /></animated.div>
-      <animated.div style={props}> <img alt='Ellipse' src={`${ellipseTwo}`} className='ellipseTwo' /> </animated.div>
       <Nav />
       <div className='carousel-container'>
         <div className='carousel-title'>
@@ -68,11 +62,12 @@ export default function Home() {
 
           </div>
         </div>
-      </div>
-
-      <div className='copyright'>
-          <div>copyright 2020 thomas miller</div>
-        </div>
+      </div> 
     </div>
+    <div className='copyright'>
+          <div className='wrapper'>copyright 2020 thomas miller</div>
+    </div>
+    <Footer />
+    </>
   )
 }
