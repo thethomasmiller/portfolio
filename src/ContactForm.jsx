@@ -3,7 +3,7 @@ import './ContactForm.css'
 
 export default function ContactForm() {
   return (
-    <form className= 'contact-form' name="contact" action="/success" method="POST" data-netlify="true">
+    <form className= 'contact-form' name="contact" method="POST" data-netlify="true">
       
       <p>
         <label htmlFor="yourname">
