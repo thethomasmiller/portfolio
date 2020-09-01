@@ -7,21 +7,20 @@ export default function ContactForm() {
       <input type="hidden" name="form-name" value="contact" />
       <p>
         <label htmlFor="yourname">
-          Your Name:
+        
         </label> <br />
-        <input type="text" name="name" id="yourname" />
+        <input type="text" name="name" id="yourname" placeholder='Your Name'/>
       </p>
       <p>
         <label htmlFor="youremail">
-          Your Email:
+         
         </label> <br />
-        <input type="email" name="email" id="youremail" />
+        <input type="email" name="email" id="youremail" placeholder='Your Email' />
       </p>
       <p>
         <label htmlFor="yourmessage">
-          Message:
         </label> <br />
-        <textarea name="message" id="yourmessage"></textarea>
+        <textarea name="message" id="yourmessage" placeholder='Your Message'></textarea>
       </p>
       <p>
         <button className='submit-button' type="submit">Send</button>

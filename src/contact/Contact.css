@@ -8,12 +8,12 @@
 
 .contact-li-icon{
 
-height: 150px;
+height: 100px;
 
 }
 .contact-github-icon{
  
-  height: 200px;
+  height: 125px;
 }
 
 
@@ -21,6 +21,6 @@ height: 150px;
 display: flex;
 justify-content: center;
 align-items: center;
-margin-top: 50px;
+margin-top: 5px;
 flex: 1 0 auto;
 }

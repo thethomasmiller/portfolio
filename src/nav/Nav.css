@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Contrail+One&family=Playfair+Display:ital@0;1&display=swap');
 
 
-/* html, body{
-  overflow: hidden;
-} */
 
 .header-block-one,
 .header-block-two,
@@ -26,21 +23,8 @@
 }
 
 
-.nav-links{
-  display: flex;
-  width: 100%;
-  padding: 10px;
-  text-transform: uppercase;
-  color:#FBFFFB;
-  font-weight: 600;
-  margin-top:10px;
-  position: relative;
-  z-index: 6;
-  font-size: 25px;
-  justify-content: space-evenly;
-  background: transparent;
-  
-}
+
+
 
 .name-position-container{
   display: flex;
@@ -73,13 +57,11 @@
 
 .tagline{
   position: relative;
-  color: #FBFFFB;
+  color: #293C43;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   text-transform: lowercase;
-  padding-left: 10px;
   z-index: 6;
-
 }
 
 
@@ -95,7 +77,6 @@ justify-content: space-evenly;
 }
 
 .nav-links{
-  
   font-size: 20px;
 }
 }

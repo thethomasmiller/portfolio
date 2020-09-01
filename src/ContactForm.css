@@ -1,22 +1,25 @@
-input{
-  background:transparent;
+input, textarea{
+  background:white;
   width: 250px;
   border: none;
-  border-bottom: 2px solid black;
+  padding: 5px;
+  border-radius: 5px;
   
 }
 
-textarea{
-  width: 250px;
-}
 
 .contact-form {
   display: flex;
   flex-direction: column;
+  align-items: center;
   
 }
 
 .submit-button{
   border: none;
   border-radius: 5px;
+  background: white ;
+  padding: 5px;
+  width: 100px;
+
 }
