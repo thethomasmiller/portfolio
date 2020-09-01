@@ -3,8 +3,7 @@ import './ContactForm.css'
 
 export default function ContactForm() {
   return (
-    <form className= 'contact-form' name="contact" method="POST" netlify>
-      
+    <form className= 'contact-form' netlify-honeypot='bot-field' name="contact" action='/' netlify>
       <p>
         <label htmlFor="yourname">
           Your Name:
