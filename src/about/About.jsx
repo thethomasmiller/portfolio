@@ -22,7 +22,7 @@ export default function About() {
         <div>Thomas</div>
         </div>
         </div>
-        <a rel="noopener noreferrer" target="_blank" className='resume-link' href="https://docdro.id/wIQ9N3B">RESUME</a>
+        <a rel="noopener noreferrer" target="_blank" className='resume-link' href="https://docdro.id/w7x0YLA">RESUME</a>
 
 
       </div>
