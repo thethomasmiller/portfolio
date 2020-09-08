@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import OrigioSlide from '../assets/OrigioSlide.svg'
 import DancepartySlide from '../assets/DancepartySlide.svg'
 import FloraSlide from '../assets/FloraSlide.svg'
@@ -8,7 +9,7 @@ import Nav from '../nav/Nav'
 import './Home.css'
 
 export default function Home() {
-  
+
   return (<>
     <div className='home'>
       <Nav />
@@ -27,27 +28,27 @@ export default function Home() {
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src={`${OrigioSlide}`} class="d-block w-100" alt="..." />
+                <Link to='/portfolio'><img src={`${OrigioSlide}`} class="d-block w-100 " alt="..." /></Link>
                 <div class="carousel-caption d-none d-md-block">
-                  
+
                 </div>
               </div>
               <div class="carousel-item">
-                <img src={`${FloraSlide}`} class="d-block w-100" alt="..." />
+                <Link to='/portfolio'> <img src={`${FloraSlide}`} class="d-block w-100" alt="..." /> </Link>
                 <div class="carousel-caption d-none d-md-block">
-                  
+
                 </div>
               </div>
               <div class="carousel-item">
-                <img src={`${DancepartySlide}`} class="d-block w-100" alt="..." />
+                <Link to='/portfolio'> <img src={`${DancepartySlide}`} class="d-block w-100" alt="..." /></Link>
                 <div class="carousel-caption d-none d-md-block">
-                  
+
                 </div>
               </div>
               <div class="carousel-item">
-                <img src={`${SubbustersSlide}`} class="d-block w-100" alt="..." />
+                <Link to='/portfolio'> <img src={`${SubbustersSlide}`} class="d-block w-100" alt="..." /> </Link>
                 <div class="carousel-caption d-none d-md-block">
-                
+
                 </div>
               </div>
             </div>
@@ -62,12 +63,12 @@ export default function Home() {
 
           </div>
         </div>
-      </div> 
+      </div>
     </div>
     <div className='copyright'>
-          <div className='wrapper'>copyright 2020 thomas miller</div>
+      <div className='wrapper'>copyright 2020 thomas miller</div>
     </div>
     <Footer />
-    </>
+  </>
   )
 }

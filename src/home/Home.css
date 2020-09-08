@@ -20,17 +20,19 @@
   padding: 10px;
   padding-bottom: 10%;
   width: 75%;
+  max-width: 600px;
   
 }
 
 .carousel-title{
-  color: white;
-  font-size:20px;
+  color: 3D3D3D;
+  font-size:3vw;
   font-weight: 600;
   text-transform: uppercase;
   margin: 0 auto;
   position: relative;
   z-index: 6;
+ 
 
 }
 .home-carousel{
@@ -40,6 +42,12 @@
   width: 100%;
   z-index:6;
 }
+.carousel-indicators,
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
 
 .copyright{
   display: flex;

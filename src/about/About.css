@@ -16,8 +16,16 @@
   width: 325px;
   text-align: justify;
   height: 400px;
- 
+}
 
+.about-pic{
+  height: 200px;
+  padding: 10px;
+  display: none;
+}
+.pic-paragraph{
+  display: flex;
+  align-items: flex-start;
 }
 
 .about-greeting{

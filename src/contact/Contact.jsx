@@ -13,8 +13,8 @@ export default function Contact() {
       <div className='contact-screen'>
         <div className='contact-icon-container'>
 
-          <a href='https://www.linkedin.com/in/thethomasmiller/'> <img alt='linked-in' className='contact-li-icon' src={`${liIcon}`} /> </a>
-          <a href='https://github.com/thethomasmiller'> <img alt='github-icon' className='contact-github-icon' src={`${gitHubIcon}`} /> </a>
+          <a target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/thethomasmiller/'> <img alt='linked-in' className='contact-li-icon' src={`${liIcon}`} /> </a>
+          <a target="_blank" rel="noopener noreferrer" href='https://github.com/thethomasmiller'> <img alt='github-icon' className='contact-github-icon' src={`${gitHubIcon}`} /> </a>
         </div>
         <ContactForm />
       </div>

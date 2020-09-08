@@ -13,7 +13,7 @@ export default function PortfolioItem() {
     <div className='icons-container-container'>
       <div className='icons-container'>
         <div className='icon-card'>
-          <img alt='Origio Icon' className='icon-img' src='https://i.imgur.com/vtKDO6y.png' />
+          <a target="_blank" rel="noopener noreferrer" href='http://origio.surge.sh/'><img alt='Origio Icon' className='icon-img' src='https://i.imgur.com/vtKDO6y.png' /></a>
           <div className='icon-details'>
             <div className='origio-title'>ORIGIO</div> 
             <div className='app-tagline'>A space for makers</div>
@@ -22,7 +22,7 @@ export default function PortfolioItem() {
 
         </div>
         <div className='icon-card'>
-          <img alt= 'Danceparty Icon' className='icon-img' src='https://i.imgur.com/MinRjbU.png' />
+        <a target="_blank" rel="noopener noreferrer" href='https://dancepartydanceparty.netlify.app/'> <img alt= 'Danceparty Icon' className='icon-img' src='https://i.imgur.com/MinRjbU.png' /></a>
           <div className='icon-details'>
             <div className='danceparty-title'>DANCEPARTY</div>
             <div className='app-tagline'>Socially-distanced fun</div>
@@ -42,7 +42,7 @@ export default function PortfolioItem() {
         </div>
 
         <div className='icon-card'>
-          <img alt= 'Subbusters Icon' className='icon-img' src='https://i.imgur.com/ddoYcKo.png' />
+        <a target="_blank" rel="noopener noreferrer" href='http://subbusters.surge.sh/'><img alt= 'Subbusters Icon' className='icon-img' src='https://i.imgur.com/ddoYcKo.png' /></a>
           <div className='icon-details'>
             <div className='subbusters-title'>SubBusters</div>
             <div className='subbusters-tagline'>A UX/DI x SEI Collaboration</div>

@@ -9,7 +9,8 @@ export default function About() {
     <div>
       <Nav />
       <div className='about-screen'>
-
+        <div className='pic-paragraph'>
+      <img alt='Profile' className='about-pic' src='https://i.imgur.com/BzDZeX2.png'/>
         <div className='about-container'>
           <div className="about-greeting">Hello there!</div>
         <div>
@@ -20,7 +21,7 @@ export default function About() {
         <div>Sincerely,</div>
         <div>Thomas</div>
         </div>
-
+        </div>
         <a rel="noopener noreferrer" target="_blank" className='resume-link' href="https://docdro.id/wIQ9N3B">RESUME</a>
 
 
