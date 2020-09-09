@@ -84,7 +84,7 @@ justify-content: space-evenly;
 @media only screen and (max-width: 450px){
 
   .tagline{
-    font-size: 15px ;
+    font-size: 12px;
   }
   .nav-links{
   
