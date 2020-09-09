@@ -14,7 +14,7 @@ export default function Nav() {
       </animated.div>
       <div className='name-position-container'>
         <div className='name-header' ><div className='first-name-header'>thomas</div><div >miller</div></div>
-        <div className='tagline'><div>full stack web developer | storyteller</div></div>
+        <div className='tagline'><div>full stack developer | problem solver | storyteller</div></div>
       </div>
       <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-center" style={{backgroundColor: '#FBDDAF'}} >
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
